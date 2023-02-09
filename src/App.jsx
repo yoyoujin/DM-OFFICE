@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Question from './pages/Question';
+import Result from './pages/Result';
 import Start from './pages/Start';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Start />} />
         <Route path='/question' element={<Question />} />
+        <Route path='/result' element={<Result />} />
       </Routes>
     </BrowserRouter>
   );
